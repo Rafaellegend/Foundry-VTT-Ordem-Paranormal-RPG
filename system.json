@@ -37,7 +37,7 @@
       ],
     "gridDistance": 1.5,
     "gridUnits": "mt",
-    "url": "https://github.com/foundryvtt/dnd5e/",
-    "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-    "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/dnd5e-release-2.0.3.zip"
+    "url": "https://github.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/",
+    "manifest": "https://raw.githubusercontent.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/master/system.json",
+    "download": ""
 }
