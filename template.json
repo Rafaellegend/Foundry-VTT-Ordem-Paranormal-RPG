@@ -1,0 +1,225 @@
+{
+    "Actor": { //Atores
+        "types":[
+            "agentSheet",
+            "npcSheet",
+            "vehicle"
+        ],
+        "templates":{ //Atores padrão
+            "common": {
+                "abilities":{ //Habilidades
+                    "str": {
+                        "value": 1
+                    },
+                    "agi": {
+                        "value": 1
+                    },
+                    "int": {
+                        "value": 1
+                    },
+                    "vit": {
+                        "value": 1
+                    },
+                    "pre": {
+                        "value": 1
+                    }
+                },
+                "attributes":{ //Atributos
+                    "hp": { //Pontos de Vida
+                        "max": 0,
+                        "min": 0,
+                        "temp": null,
+                        "tempmax": null,
+                        "value": 0
+                    },
+                    "ep": { //Pontos de Esforço
+                        "max": 0,
+                        "min": 0,
+                        "value": 0
+                    },
+                    "san": { //Pontos de Sanidade
+                        "max": 0,
+                        "min": 0,
+                        "value": 0
+                    },
+                    "defense": { //Defesas
+                        "passive": 0,
+                        "block": 0,
+                        "dodge": 0
+                    },
+                    "movement": { //Deslocamento
+                        "value": 0,
+                        "units": "mt"
+                    },
+                    "size": "med"
+                },
+                "traits": { //Traços             
+                    "dr": { //Redução de Dano
+                        "insanity": 0,
+                        "physical": 0,
+                        "ballistic": 0,
+                        "blood": 0,
+                        "death": 0,
+                        "energy": 0,
+                        "knowledge": 0
+                    }
+                }
+            }
+        },
+        "agentSheet":{
+            "skill": {
+                "acr": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "aim": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "ath": {
+                    "ability": "for",
+                    "value": 0,
+                },
+                "con": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "cri": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "dec": {
+                    "ability": "per",
+                    "value": 0,
+                },
+                "dip": {
+                    "ability": "per",
+                    "value": 0,
+                },
+                "dri": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "for": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "ini": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "ins": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "int": {
+                    "ability": "per",
+                    "value": 0,
+                },
+                "inv": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "job": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "med": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "occ": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "per": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "ref": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "rel": {
+                    "ability": "per",
+                    "value": 0,
+                },
+                "sci": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "sth": {
+                    "ability": "agi",
+                    "value": 0,
+                },
+                "sur": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "tat": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "top": {
+                    "ability": "",
+                    "value": 0,
+                },
+                "tec": {
+                    "ability": "int",
+                    "value": 0,
+                },
+                "wil": {
+                    "ability": "Per",
+                    "value": 0,
+                }
+            }
+        }
+    },
+    "Item":{
+        "types": [
+            "background",
+            "class",
+            "consumable",  
+            "equipment",
+            "path",
+            "trait",        
+            "weapon"
+        ],
+        "templates":{
+            "itemDescription":{
+                "description": ""
+            }
+        },
+        "background":{
+            "templates":["itemDescription"]
+        },
+        "class":{
+            "templates":["itemDescription"]
+        },
+        "consumable":{
+            "templates":["itemDescription"]
+        },
+        "equioment":{
+            "templates":["itemDescription"]
+        },
+        "path":{
+            "templates":["itemDescription"]
+        },
+        "trait":{
+            "templates":["itemDescription"]
+        },
+        "weapon":{
+            "templates":["itemDescription"],
+            "typewpn": "",
+            "typehandling": "",
+            "category": "",        
+            "damage": 0,
+            "critic": 0,
+            "range": "",
+            "reload":"",
+            "typedmg": "",
+            "slot": 0
+        }
+
+    }
+}

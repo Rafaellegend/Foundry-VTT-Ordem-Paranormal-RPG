@@ -1,0 +1,36 @@
+{
+    "posys": {
+        "typeweapon": {
+            "melee": "Corpo a Corpo",
+            "ranged": "À Distância"
+        },
+        "damage": {
+            "none": "",
+            "acid": "Acido",
+            "ballistic": "Balístico",
+            "bludgeoning": "Impacto",
+            "eletric": "Elétrico",
+            "fire": "Fogo",
+            "freezing": "Frio",
+            "mental": "Mental",
+            "paranormal": "Paranormal",          
+            "piercing": "Perfurante",
+            "slashing": "Cortante"
+        },
+        "handling": {
+            "light": "Leve",
+            "onehand": "Uma Mão",
+            "twohand": "Duas Mãos"      
+        },
+        "weapon":{
+            "typewpn": "Tipo de Arma",
+            "typehandling": "Manuseio",
+            "category": "Categoria",        
+            "damage": "Dano",
+            "critic": "Critico",
+            "range": "Alcance",
+            "typedmg": "Tipo",
+            "slot": "Espaço"
+        }
+    }
+}

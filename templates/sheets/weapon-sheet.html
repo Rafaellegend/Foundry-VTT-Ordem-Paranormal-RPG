@@ -1,0 +1,80 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
+        <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
+    </header>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "posys.weapon.typewpn"}}</th>
+                <th>{{localize "posys.weapon.typehandling"}}</th>
+                <th>{{localize "posys.weapon.category"}}</th>
+                <th>{{localize "posys.weapon.slot"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.typewpn">
+                        {{#select data.typewpn}}
+                        {{#each config.weaponTypes as |name type|}}
+                        <option value="{{type}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                     </select>
+                </td>
+                <td>
+                    <select name="data.typehandling">
+                        {{#select data.typehandling}}
+                        {{#each config.weaponhandling as |name type|}}
+                        <option value="{{type}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                     </select>
+                </td>
+                <td>
+                    <select name="data.category">
+                        {{#select data.category}}
+                        <option value="0">0</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        {{/select}}
+                    </select>
+                </td>
+                <td>
+                    <input name="data.slot" type="text" value="{{data.slot}}" data-dtype="number">
+                </td>
+            </tr>
+
+            <tr>
+                <th>{{localize "posys.weapon.damage"}}</th>
+                <th>{{localize "posys.weapon.critic"}}</th>
+                <th>{{localize "posys.weapon.range"}}</th>
+                <th>{{localize "posys.weapon.damage"}}</th>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="number">
+                </td>
+                <td>
+                    <input name="data.critic" type="text" value="{{data.critic}}">
+                </td>
+                <td>
+                    <input name="data.range" type="text" value="{{data.range}}" data-dtype="number">
+                </td>
+                <td>
+                    <select name="data.typedmg">
+                        {{#select data.typedmg}}
+                        {{#each config.damageTypes as |name type|}}
+                        <option value="{{type}}">{{localize name}}</option>
+                        {{/each}}
+                        {{/select}}
+                     </select>
+                </td>
+                
+            </tr>
+        </table>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
+</form>

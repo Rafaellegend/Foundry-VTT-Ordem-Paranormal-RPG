@@ -1,0 +1,36 @@
+{
+    "posys": {
+        "typeweapon": {
+            "melee": "Melee",
+            "ranged": "Ranged"
+        },
+        "damage": {
+            "none": "",
+            "acid": "Acid",
+            "ballistic": "Ballistic",
+            "bludgeoning": "Bludgeoning",
+            "eletric": "Eletric",
+            "fire": "Fire",
+            "freezing": "Freezing",
+            "mental": "Mental",
+            "paranormal": "Paranormal",
+            "slashing": "Slashing",
+            "piercing": "Piercing"
+        },
+        "handling": {
+            "light": "Light",
+            "onehand": "One Handed",
+            "twohand": "Two Handed"
+        },
+        "weapon":{
+            "typewpn": "Weapon Type",
+            "typehandling": "Handling",
+            "category": "Category",        
+            "damage": "Damage",
+            "critic": "Critic",
+            "range": "Range",
+            "typedmg": "Damage Type",
+            "slot": "Slot"
+        }
+    }
+}
