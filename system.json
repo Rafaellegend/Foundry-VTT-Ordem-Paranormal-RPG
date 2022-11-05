@@ -3,8 +3,11 @@
     "title": "Ordem Paranormal RPG System",
     "description": "Sistema para jogar Ordem Paranormal RPG / A system to play Ordem Paranormal RPG",
     "version": "0.0.1",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
     "esmodules": [
         "ordemsys.js"
     ],
@@ -31,7 +34,7 @@
     "authors": [
         {
           "name": "Raffozo",
-          "url": "https://foundryvtt.com",
+          "url": "https://github.com/Rafaellegend",
           "flags": {}
         }
       ],
