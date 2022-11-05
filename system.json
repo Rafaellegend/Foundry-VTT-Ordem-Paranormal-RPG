@@ -1,15 +1,15 @@
 {
-    "id": "posys",
+    "id": "ordemsys",
     "title": "Ordem Paranormal RPG System",
     "description": "Sistema para jogar Ordem Paranormal RPG / A system to play Ordem Paranormal RPG",
     "version": "0.0.1",
     "minimumCoreVersion": "0.8.6",
     "compatibleCoreVersion": "10",
     "esmodules": [
-        "posys.js"
+        "ordemsys.js"
     ],
     "styles":[
-        "posys.css"
+        "css/ordemsys.css"
     ],
     "packs": [
 

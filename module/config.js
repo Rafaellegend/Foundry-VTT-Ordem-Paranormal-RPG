@@ -1,27 +1,27 @@
-export const posys = {};
+export const ordemsys = {};
 
-posys.damageTypes = {
+ordemsys.damageTypes = {
     none: "",
-    acid: "posys.damage.acid",
-    ballistic: "posys.damage.ballistic",
-    bludgeoning: "posys.damage.bludgeoning",
-    eletric: "posys.damage.eletric",
-    fire: "posys.damage.fire",
-    freezing: "posys.damage.freezing",
-    mental: "posys.damage.mental",
-    paranormal: "posys.damage.paranormal",
-    piercing: "posys.damage.piercing",
-    slashing: "posys.damage.slashing"
+    acid: "ordemsys.damage.acid",
+    ballistic: "ordemsys.damage.ballistic",
+    bludgeoning: "ordemsys.damage.bludgeoning",
+    eletric: "ordemsys.damage.eletric",
+    fire: "ordemsys.damage.fire",
+    freezing: "ordemsys.damage.freezing",
+    mental: "ordemsys.damage.mental",
+    paranormal: "ordemsys.damage.paranormal",
+    piercing: "ordemsys.damage.piercing",
+    slashing: "ordemsys.damage.slashing"
     
 }
 
-posys.weaponTypes = {
-    melee: "posys.typeweapon.melee",
-    ranged: "posys.typeweapon.ranged"
+ordemsys.weaponTypes = {
+    melee: "ordemsys.typeweapon.melee",
+    ranged: "ordemsys.typeweapon.ranged"
 }
 
-posys.weaponhandling = {
-    light: "posys.handling.light",
-    onehand: "posys.handling.onehand",
-    twohand: "posys.handling.twohand"
+ordemsys.weaponhandling = {
+    light: "ordemsys.handling.light",
+    onehand: "ordemsys.handling.onehand",
+    twohand: "ordemsys.handling.twohand"
 }

@@ -1,6 +1,6 @@
-export default class POSysItemSheet extends ItemSheet {
+export default class OrdemSysItemSheet extends ItemSheet {
     get template(){
-        return `systems/posys/templates/sheets/${this.item.data.type}-sheet.html`;
+        return `systems/ordemsys/templates/sheets/${this.item.data.type}-sheet.html`;
     }
 
     getData() {
@@ -10,7 +10,7 @@ export default class POSysItemSheet extends ItemSheet {
             editable: this.isEditable,
             item: baseData.item,
             data: baseData.item.data.data,
-            config: CONFIG.posys
+            config: CONFIG.ordemsys
         }
 
         return sheetData;
