@@ -38,6 +38,6 @@
     "gridDistance": 1.5,
     "gridUnits": "mt",
     "url": "https://github.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/",
-    "manifest": "https://raw.githubusercontent.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/master/system.json",
-    "download": "bla"
+    "manifest": "https://raw.githubusercontent.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/staging/system.json",
+    "download": "https://github.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/releases/download/v0.0.1-unstable/main.rar"
 }
