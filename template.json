@@ -81,106 +81,132 @@
                 "acr": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "aim": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "ath": {
                     "ability": "for",
                     "value": 0,
+                    "bonus": 0
                 },
                 "con": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "cri": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "dec": {
                     "ability": "per",
                     "value": 0,
+                    "bonus": 0
                 },
                 "dip": {
                     "ability": "per",
                     "value": 0,
+                    "bonus": 0
                 },
                 "dri": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "for": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "ini": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "ins": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "int": {
                     "ability": "per",
                     "value": 0,
+                    "bonus": 0
                 },
                 "inv": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "job": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "med": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "occ": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "per": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "ref": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "rel": {
                     "ability": "per",
                     "value": 0,
+                    "bonus": 0
                 },
                 "sci": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "sth": {
                     "ability": "agi",
                     "value": 0,
+                    "bonus": 0
                 },
                 "sur": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "tat": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "top": {
                     "ability": "",
                     "value": 0,
+                    "bonus": 0
                 },
                 "tec": {
                     "ability": "int",
                     "value": 0,
+                    "bonus": 0
                 },
                 "wil": {
                     "ability": "Per",
                     "value": 0,
+                    "bonus": 0
                 }
             }
         }
