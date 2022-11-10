@@ -3,8 +3,11 @@
     "title": "Ordem Paranormal RPG System",
     "description": "Sistema para jogar Ordem Paranormal RPG / A system to play Ordem Paranormal RPG",
     "version": "0.0.1",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "10",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10",
+        "maximum": "10"
+    },
     "esmodules": [
         "ordemsys.js"
     ],
@@ -12,7 +15,15 @@
         "css/ordemsys.css"
     ],
     "packs": [
-
+        {
+            "name": "tutorial",
+            "label": "System Tutorial",
+            "path": "packs/tutorial.db",
+            "private": false,
+            "type": "JournalEntry",
+            "system": "ordemsys",
+            "flags": {}
+          }
     ],
     "languages":[
         {
@@ -31,13 +42,13 @@
     "authors": [
         {
           "name": "Raffozo",
-          "url": "https://foundryvtt.com",
+          "url": "https://github.com/Rafaellegend",
           "flags": {}
         }
       ],
     "gridDistance": 1.5,
     "gridUnits": "mt",
     "url": "https://github.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/",
-    "manifest": "https://raw.githubusercontent.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/master/system.json",
-    "download": "bla"
+    "manifest": "https://raw.githubusercontent.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/staging/system.json",
+    "download": "https://github.com/Rafaellegend/Foundry-VTT-Ordem-Paranormal-RPG/releases/download/v0.0.1-unstable/main.zip"
 }
