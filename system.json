@@ -15,7 +15,15 @@
         "css/ordemsys.css"
     ],
     "packs": [
-
+        {
+            "name": "tutorial",
+            "label": "System Tutorial",
+            "path": "packs/tutorial.db",
+            "private": false,
+            "type": "JournalEntry",
+            "system": "ordemsys",
+            "flags": {}
+          }
     ],
     "languages":[
         {

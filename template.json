@@ -1,60 +1,70 @@
 {
-    "Actor": { //Atores
+    "Actor": { 
         "types":[
             "agentSheet",
             "npcSheet",
             "vehicle"
         ],
-        "templates":{ //Atores padrão
+        "templates":{ 
             "common": {
-                "abilities":{ //Habilidades
+                "abilities":{ 
                     "str": {
-                        "value": 1
+                        "value": 1,
+                        "bonus": 0,
+                        "total": 0
                     },
                     "agi": {
-                        "value": 1
+                        "value": 1,
+                        "bonus": 0,
+                        "total": 0
                     },
                     "int": {
-                        "value": 1
+                        "value": 1,
+                        "bonus": 0,
+                        "total": 0
                     },
                     "vit": {
-                        "value": 1
+                        "value": 1,
+                        "bonus": 0,
+                        "total": 0
                     },
                     "pre": {
-                        "value": 1
+                        "value": 1,
+                        "bonus": 0,
+                        "total": 0
                     }
                 },
-                "attributes":{ //Atributos
-                    "hp": { //Pontos de Vida
+                "attributes":{ 
+                    "hp": { 
                         "max": 0,
                         "min": 0,
                         "temp": null,
                         "tempmax": null,
                         "value": 0
                     },
-                    "ep": { //Pontos de Esforço
+                    "ep": { 
                         "max": 0,
                         "min": 0,
                         "value": 0
                     },
-                    "san": { //Pontos de Sanidade
+                    "san": { 
                         "max": 0,
                         "min": 0,
                         "value": 0
                     },
-                    "defense": { //Defesas
+                    "defense": { 
                         "passive": 0,
                         "block": 0,
                         "dodge": 0
                     },
-                    "movement": { //Deslocamento
+                    "movement": { 
                         "value": 0,
                         "units": "mt"
                     },
                     "size": "med"
                 },
-                "traits": { //Traços             
-                    "dr": { //Redução de Dano
+                "traits": { 
+                    "dr": { 
                         "insanity": 0,
                         "physical": 0,
                         "ballistic": 0,
