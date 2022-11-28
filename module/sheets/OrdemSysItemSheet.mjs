@@ -1,6 +1,6 @@
 export default class OrdemSysItemSheet extends ItemSheet {
     get template(){
-        return `systems/ordemsys/templates/sheets/${this.item.data.type}-sheet.html`;
+        return `systems/ordemsys/templates/sheets/${this.item.constructor.name}/${this.item.data.type}.hbs`;
     }
 
     getData() {

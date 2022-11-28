@@ -1,0 +1,60 @@
+<header class="sheet-header flexrow">
+	<img class="profile" src="{{item.img}}" title="{{item.name}}" data-edit="img"/>
+	<div class="header-details flexrow">
+		<h1 class="charname" style="margin: 0; flex-grow: 3;">
+			<input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'Name'}}"/>
+		</h1>
+
+		<div class="item-subtitle" style="text-align: center;">
+			<h4 class="item-type">{{itemType}}</h4>
+			<span class="item-status">{{{itemStatus}}}</span>
+		</div>
+		<ul class="summary flexrow">
+			{{#if (eq item.type "poder")}}
+				<li style="flex-grow: 3;">
+					{{ localize (lookup ./config.powerType item.system.tipo) }} {{#if item.system.subtipo }}({{item.system.subtipo}}){{/if}}
+				</li>
+			{{/if}}
+			{{#if (eq item.type "magia")}}
+				<li style="flex-grow: 3;">
+					{{labels.tipo}} {{labels.nivel}} ({{labels.escola}})
+				</li>
+			{{/if}}
+			{{#if (eq item.type "consumivel")}}
+				<li style="flex-grow: 3;">
+				</li>
+			{{/if}}
+			{{#if (eq item.type "arma")}}
+				<li style="flex-grow: 3;">
+					{{labels.toHit}} ({{labels.dano}}, {{labels.critico}})
+				</li>
+			{{/if}}
+			{{#if (eq item.type "classe")}}
+				<li style="flex-grow: 3;">
+					{{#if false }}
+						{{#if item.system.inicial }} {{ localize "T20.ClassOriginal" }} {{/if}}
+						—
+						{{ localize "T20.Levels" }} {{  item.system.niveis  }}
+						—
+						{{ localize "T20.MaxManaCost" }}: {{  item.system.niveis  }}
+					{{/if}}
+				</li>
+			{{/if}}
+			{{#if (eq item.type "equipamento")}}
+				<li style="flex-grow: 3;">
+					{{localize (lookup ./config.armorTypes  item.system.tipo) }} — 
+					<label title="{{ localize 'T20.Defense' }}">
+						<i class="fa-solid fa-shield"></i> {{item.system.armadura.value}}
+					</label>
+					—
+					<label title="{{ localize 'T20.ArmorPenalty' }}">
+						<i class="fa-solid fa-person-hiking"></i> {{item.system.armadura.penalidade}}
+					</label>
+				</li>
+			{{/if}}
+			{{#if item.system.ativacao.custo}}
+				<li style="text-align: center;">{{item.system.ativacao.custo}} PM</li>
+			{{/if}}
+		</ul>
+	</div>
+</header>

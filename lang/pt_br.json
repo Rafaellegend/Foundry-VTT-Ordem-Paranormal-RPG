@@ -1,11 +1,22 @@
 {
     "ordemsys": {
+        "description": "Descrição",
+        "details": "Detalhes",
+        "effects": "Efeitos",
+
+        "elements":{
+            "blood": "Sangue",
+            "death": "Morte",
+            "energy": "Energia",
+            "fear": "Medo",
+            "knowledge": "Conhecimento"
+        },
+
         "typeweapon": {
             "melee": "Corpo a Corpo",
             "ranged": "À Distância"
         },
         "damage": {
-            "none": "",
             "acid": "Acido",
             "ballistic": "Balístico",
             "bludgeoning": "Impacto",
@@ -15,7 +26,11 @@
             "mental": "Mental",
             "paranormal": "Paranormal",          
             "piercing": "Perfurante",
-            "slashing": "Cortante"
+            "slashing": "Cortante",
+            "blood": "Sangue",
+            "death": "Morte",
+            "energy": "Energia",
+            "knowledge": "Conhecimento"
         },
         "handling": {
             "light": "Leve",

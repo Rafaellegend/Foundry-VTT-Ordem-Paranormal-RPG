@@ -1,9 +1,17 @@
 <form class="{{cssClass}}" autocomplete="off">
+    {{!-- Header - Ficha de Item --}}
     <header class="sheet-header">
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
-    <div>
+    {{!-- Tabs - Ficha de Item --}}
+<div class="ui top attached tabular menu">
+    <a class="item active" data-tab="description">{{localize "ordemsys.description"}}</a>
+    <a class="item" data-tab="details">{{localize "ordemsys.details"}}</a>
+    <a class="item" data-tab="effects">{{localize "ordemsys.effects"}}</a>
+</div>
+
+    <div class="ui bottom attached tab segment" data-tab="test2">
         <table>
             <tr>
                 <th>{{localize "ordemsys.weapon.typewpn"}}</th>
@@ -75,6 +83,9 @@
                 
             </tr>
         </table>
+    </div>
+    
+    <div class="ui bottom attached tab segment active" data-tab="test1">
         <textarea name="data.description">{{data.description}}</textarea>
     </div>
 </form>

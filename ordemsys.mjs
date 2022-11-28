@@ -1,5 +1,5 @@
-import { ordemsys } from "./module/config.js";
-import OrdemSysItemSheet from "./module/sheets/OrdemSysItemSheet.js";
+import { ordemsys } from "./module/config.mjs";
+import OrdemSysItemSheet from "./module/sheets/OrdemSysItemSheet.mjs";
 
 Hooks.once("init", function(){
     console.log("ordemsys | Initialising Ordem Paranormal RPG System");

@@ -1,5 +1,17 @@
 {
     "ordemsys": {
+        "description": "Description",
+        "details": "Details",
+        "effects": "Effects",
+
+        "elements":{
+            "blood": "Blood",
+            "death": "Death",
+            "energy": "Energy",
+            "fear": "Fear",
+            "knowledge": "Knowledge"
+        },
+
         "typeweapon": {
             "melee": "Melee",
             "ranged": "Ranged"
@@ -15,7 +27,11 @@
             "mental": "Mental",
             "paranormal": "Paranormal",
             "slashing": "Slashing",
-            "piercing": "Piercing"
+            "piercing": "Piercing",
+            "blood": "Blood",
+            "death": "Death",
+            "energy": "Energy",
+            "knowledge": "Knowledge"
         },
         "handling": {
             "light": "Light",
